@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.morePictures {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+}
+.morePictures button {
+  font-size: 1.5rem;
+  margin: 1rem;
+  padding: 0.2rem 0.8rem;
+  color: rgb(255, 255, 255);
+  background-color: rgb(171, 178, 244);
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+@import "./nav";
+@import "./search";
+@import "./footer";
+@import "./picture";
